@@ -32,5 +32,5 @@
 16. Il contient les info de l'utilisateur. man passwd
 
 ## Exercice 4:
-On a appris a actualiser directement (avec source) sans redemarrer la machine puis à modifier les couleurs de la police(trentaine) et du fond(quarantaine). Voici notre config : \033[31m\][\A]\[\033[32m]]\u@\h\
+On a appris a actualiser directement (avec source) sans redemarrer la machine puis à modifier les couleurs de la police(trentaine) et du fond(quarantaine). Voici notre config : \033[31m\][\A]\[\033[32m]]\u@\h\...
 31:rouge 32:vert 34:bleu u@:user A:heure
