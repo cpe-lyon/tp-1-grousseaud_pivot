@@ -21,13 +21,17 @@
 
 1. Avec date on obtient la date et l'heure. Time permet de determiner la durée(real: temps réel, user: temps cpu,sys: temps utilisé par le système) d'une tâche.
 2. ls permet d'afficher les dossiers du répertoire, mais la permet d'afficher tout les dossiers y compris ceux commencant par un point qui était "caché" avec ls. ls -a permet donc d'afficher les dossiers cachés.
-3. 
+3. /usr/bin/ls
 4. Il n'y a pas d'entrée sur ll. Alias nous renseigne sur les raccourcis de commandes dont l, ll correspond donc a l -alF a:dossier caché, F:accepte des caractères spéciaux et l:accepter un format long.
 5. ls /bin
 6. ls permet d'afficher les dossiers dans le répertoire en cours. Si des arguments d'entrées sont données ls affichera les dossiers contenu dans les arguments.
+7. $pwd
+8. On crée un fichier plop et on ecrit yo dedans, si on répère l'opération rien ne se passe car on réécrit yo par dessus yo.
+9. Idem sauf que si on répète l'opération, le second yo est concaténé au premier.
 10. Donne le type de document.
 11. Quand on ouvre titi on ouvre toto reelement donc lorsque toto est modifié, titi affiche aussi la modification. Lorsque l'on supprime toto, titi est toujours un lien vers le même document, seulement l'acces direct a toto est supprimé.
 12. Le lien d'un lien continue d'afficher les modifications et inversement. Cependant lorsque l'on tue le lien "mère" titi, tutu affiche un document vide.
+13. Avec CTRL+S on arrête le défilement et CTRL+Q pour reprendre.
 15. Affiche un contenu lié à l'ordinateur, on le fait défiler quand on appuie sur enter.
 16. Il contient les info de l'utilisateur. man passwd
 
